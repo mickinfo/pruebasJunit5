@@ -54,9 +54,9 @@ pipeline {
                 protocol: 'http',
                 nexusUrl: 'nexus:8081',
                 groupId: 'cl.awakelab.junitapp',
-                version: '0.0.1-SNAPSHOT',
-                repository: 'maven-snapshots',
-                credentialsId: 'nex',
+                version: '0.0.1',
+                repository: 'app-init',
+                credentialsId: 'nexuscredenciales',
                 artifacts: [
                     [artifactId: 'proyectoJunit',
                     classifier: '',
